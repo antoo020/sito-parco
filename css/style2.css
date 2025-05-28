@@ -1,0 +1,146 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    background-size: contain;
+    }
+    
+    header{
+        background-color: #92B095;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 36px;
+        align-items: center;
+    }
+    
+    header nav ul {
+        margin: 0;
+        list-style: none;
+        display: flex;
+        gap: 16px;
+        
+    }
+    header a {
+        text-decoration-line: none;
+        color: white;
+    }
+    
+    header nav a {
+        color: white;
+    }
+    
+    header a:hover {
+        color: darkolivegreen;
+        text-decoration: underline;
+    }
+    
+    header h4 {
+        color: white;
+        text-decoration: none;
+    }
+
+    h1 {
+        margin-left: 50px;
+        color: #6A7D6C;
+        text-align: left;
+        font-size: 30px;
+    }
+
+    h2{
+        margin-left: 50px;
+        color: #6A7D6C;
+        text-align: left;
+        font-size: 25px;
+    }
+    
+    hr {
+        border: none;
+        height: 2px;
+        background-color: #6A7D6C;
+    }
+
+    p {
+        text-align: left;
+        margin-left: 50px;
+        color: #6A7D6C;
+        font-size: 15px;
+    }
+
+    section.info {
+        margin-top: 60px;
+        margin-left: 50px;
+        display: grid block ;
+        grid-template-columns: repeat(3,1fr);
+        font-style: oblique;
+        font-size: 15PX;
+        padding-bottom: 40px;
+        gap: 30px;
+    }
+    section a {
+        color: #6A7D6C;
+        text-decoration: none;
+    }
+    section a:hover {
+        color: #92B095;
+        text-decoration: underline;
+    }
+    
+    footer {
+            background-color: #6A7D6C;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 36px;
+    }
+    
+    p a {
+        color: white;
+    }
+
+    @media (max-width:900px) {
+        body{
+            background-color: white;
+        }
+    
+        header{
+            background-color: #92B095;
+            display: flex;
+            justify-content: space-between;
+            padding: 4px 36px;
+            align-items: center;
+        }
+        
+        header nav ul {
+            margin: 0;
+            list-style: none;
+            display: flex;
+            gap: 8px;
+        }
+
+        header h4 {
+            display: grid;
+        }
+    
+        h1 {
+            display: grid;
+        }
+    
+        h2{
+           display: grid;
+        }
+        
+        section.info div {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax (300px, 1fr));
+        } 
+        section.info {
+            margin-top: 60px;
+            margin-left: 50px;
+            display: grid block ;
+            grid-template-columns: repeat(1,1fr);
+            font-style: oblique;
+            padding-bottom: 40px;
+            gap: 30px;
+        }
+    }

@@ -1,0 +1,132 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    background-size: contain;
+    }
+    
+    header{
+        background-color: #92B095;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 36px;
+        align-items: center;
+    }
+    
+    header nav ul {
+        margin: 0;
+        list-style: none;
+        display: flex;
+        gap: 16px;
+    }
+    header a {
+        text-decoration-line: none;
+        color: white;
+    }
+    
+    header nav a {
+        color: white;
+    }
+    
+    header a:hover {
+        color: darkolivegreen;
+        text-decoration: underline;
+    }
+
+    header h4 {
+        color: white;
+        text-decoration: none;
+        }
+
+    h1 {
+        margin-left: 700px;
+        color: #6A7D6C;
+        text-align: left;
+        font-size: 40px;
+    }
+    h2 {
+        margin-left: 700px;
+        color: #6A7D6C;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    section.info div{
+        margin-left: 80px;
+        margin-bottom: 100px;
+        display: flex;
+        align-items: flex-start;
+        gap: 70px;
+    }
+
+    section.info img {
+       border-bottom: 8px;
+    }
+
+    section.info p {
+        font-size: 15px;
+        color: #6A7D6C;
+        margin-inline-start: 10px;
+    }
+    
+    footer{
+        background-color: #6A7D6C;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 36px;
+    }
+    p a {
+        color: white;
+    }
+
+    @media (max-width:900px) {
+        body{
+            background-color: white;
+        }
+    
+        header{
+            background-color: #92B095;
+            display: flex;
+            justify-content: space-between;
+            padding: 4px 36px;
+            align-items: center;
+        }
+        
+        header nav ul {
+            margin: 0;
+            list-style: none;
+            display: flex;
+            gap: 8px;
+        }
+        
+        h1 {
+            display: grid;
+            margin-left: 25px;
+
+        }
+        h2 {
+            display: grid;
+            margin-left: 25px;
+        }
+        
+        section.info div{
+            margin-left: 25px;
+            margin-bottom: 100px;
+            display: grid;
+        }
+    
+        section.info img {
+           border-bottom: 8px;
+           display: grid;
+        }
+    
+        section.info p {
+            font-size: 15px;
+            color: #6A7D6C;
+            margin-inline-start: 10px;
+            display: grid;
+    }
+    
+}
