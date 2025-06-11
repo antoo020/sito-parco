@@ -40,13 +40,13 @@ body {
         }
 
     h1 {
-        margin-left: 690px;
+        margin-left: 560px;
         color: #6A7D6C;
         text-align: left;
         font-size: 40px;
     }
     h2 {
-        margin-left: 690px;
+        margin-left: 560px;
         color: #6A7D6C;
         text-align: left;
         font-size: 20px;
@@ -62,12 +62,15 @@ body {
 
     section.info img {
        border-bottom: 8px;
+       width: 400px;
+       height: auto;
     }
 
     section.info p {
         font-size: 15px;
         color: #6A7D6C;
         margin-inline-start: 10px;
+        width: 500px;
     }
     
     footer{
@@ -81,7 +84,7 @@ body {
         color: white;
     }
 
-    @media (max-width:900px) {
+    @media (max-width:600px) {
         body{
             background-color: white;
         }
@@ -120,6 +123,7 @@ body {
         section.info img {
            border-bottom: 8px;
            display: grid;
+           margin-left: 60px;
         }
     
         section.info p {
@@ -130,5 +134,3 @@ body {
     }
     
 }
-    
-    
