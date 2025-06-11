@@ -1,13 +1,11 @@
 body {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0%;
     background-size: contain;
     }
     
     header{
         background-color: #92B095;
-        margin: 0;
         display: flex;
         justify-content: space-between;
         padding: 5px 36px;
@@ -52,6 +50,7 @@ body {
         color: #6A7D6C;
         text-align: left;
         font-size: 25px;
+        width: 900px;
     }
     
     hr {
@@ -65,18 +64,21 @@ body {
         margin-left: 50px;
         color: #6A7D6C;
         font-size: 15px;
+        width: 500px;
     }
 
     section.info {
-        margin-top: 60px;
+        margin-top: 50px;
         margin-left: 50px;
-        display: grid block ;
+        display: grid;
         grid-template-columns: repeat(3,1fr);
         font-style: oblique;
         font-size: 15PX;
-        padding-bottom: 40px;
-        gap: 30px;
+        padding-bottom: 50px;
+        gap: 80px;
+
     }
+    
     section a {
         color: #6A7D6C;
         text-decoration: none;
@@ -98,7 +100,7 @@ body {
         color: white;
     }
 
-    @media (max-width:900px) {
+    @media (max-width:600px) {
         body{
             background-color: white;
         }
@@ -128,11 +130,13 @@ body {
     
         h2{
            display: grid;
+           width: 500px;
         }
         
         section.info div {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax (300px, 1fr));
+            margin-left: 60px;
         } 
         section.info {
             margin-top: 60px;
