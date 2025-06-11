@@ -3,6 +3,7 @@ background-color: white;
 font-family: Arial, Helvetica, sans-serif;
 margin: 0%;
 background-size: contain;
+max-width: 100%;
 }
 
 header{
@@ -53,8 +54,7 @@ hr {
 }
 
 section.card {
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 180px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     font-style: oblique;
@@ -88,6 +88,7 @@ p.description {
     color: #6A7D6C;
     font-size: 15px;
     text-align: left;
+    width: 400px;
 }
 
 h3 {
@@ -107,8 +108,22 @@ section.info div {
     margin-top: 50px;
     text-align: left;
 }
+section.info img {
+    width: 400px;
+    height: auto;
+    margin-left: 40px;
+}
 section.info a h3{
     margin-inline-start: 30px;
+}
+
+.card img {
+    transition: filter 0.3s ease;
+    width: 400px;
+    height: auto;
+}
+.card img:hover {
+    filter: brightness(0.5);
 }
 
 
@@ -129,7 +144,7 @@ p a:hover {
     text-decoration: underline;
 }
 
-@media (max-width:900px) {
+@media (max-width:600px) {
     body{
         background-color: white;
     }
@@ -169,6 +184,7 @@ p a:hover {
         grid-template-columns: repeat(1,1fr);
         font-style: oblique;
         gap: 40px;
+        margin-left: 90px;
     }
     
 }
